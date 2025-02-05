@@ -1,0 +1,8 @@
+{
+    "version": "2.0.12",
+    "app": {
+        "name": "ai_website",
+        "package_name": "com.example.ai_website"
+    },
+    "main": {}
+}
