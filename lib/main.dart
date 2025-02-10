@@ -2,8 +2,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:nowa_runtime/nowa_runtime.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:ai_website/globals/app_state.dart';
-import 'package:ai_website/pages/home_page.dart';
+import 'package:Test1/globals/app_state.dart';
+import 'package:Test1/pages/login_page.dart';
+import 'package:Test1/pages/home_page.dart';
 
 @NowaGenerated()
 late final SharedPreferences sharedPrefs;
@@ -27,8 +28,11 @@ class MyApp extends StatelessWidget {
       create: (context) => AppState(),
       builder: (context, child) => MaterialApp(
         theme: AppState.of(context).theme,
-        initialRoute: 'HomePage',
-        routes: {'HomePage': (context) => const HomePage()},
+        initialRoute: 'LoginPage',
+        routes: {
+          'LoginPage': (context) => const LoginPage(),
+          'HomePage': (context) => const HomePage()
+        },
       ),
     );
   }
