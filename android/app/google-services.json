@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742580552247",
+    "project_id": "ai-club-portal",
+    "storage_bucket": "ai-club-portal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742580552247:android:3308c6ba5dfd44f09975b2",
+        "android_client_info": {
+          "package_name": "com.example.Test1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFMcMDOxs4X_Bwi-0M9RSUimnTP99mf5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

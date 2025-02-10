@@ -1,4 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:Test1/firebase_options.dart';
 import 'package:nowa_runtime/nowa_runtime.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -13,7 +15,7 @@ late final SharedPreferences sharedPrefs;
 main() async {
   WidgetsFlutterBinding.ensureInitialized();
   sharedPrefs = await SharedPreferences.getInstance();
-
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());
 }
 

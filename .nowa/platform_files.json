@@ -1,18 +1,20 @@
 {
     "android": {
-        "androidManifest": {
-            "permissionSection": {},
-            "inApplicationSection": {},
-            "inActivitySection": {}
-        },
+        "androidManifest": {},
         "rootBuildGradle": {},
-        "appBuildGradle": {},
-        "settingsGradle": {}
+        "appBuildGradle": {
+            "pluginsSection": {
+                "googleServicesPlugin-app": "id \"com.google.gms.google-services\""
+            }
+        },
+        "settingsGradle": {
+            "pluginsSection": {
+                "googleServicesPlugin-settings": "id \"com.google.gms.google-services\" version \"4.3.15\" apply false"
+            }
+        }
     },
     "iOS": {
-        "infoPlist": {
-            "inDictSection": {}
-        },
+        "infoPlist": {},
         "podFile": {},
         "appDelegateSwift": {}
     }

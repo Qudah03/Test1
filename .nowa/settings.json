@@ -4,5 +4,21 @@
         "name": "ai_website",
         "package_name": "com.example.ai_website"
     },
-    "main": {}
+    "main": [
+        {
+            "key": "firebase",
+            "statement": "await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);",
+            "imports": [
+                "package:firebase_core/firebase_core.dart",
+                "package:Test1/firebase_options.dart"
+            ]
+        }
+    ],
+    "firebase": {
+        "projectId": "ai-club-portal",
+        "androidAppId": "1:742580552247:android:3308c6ba5dfd44f09975b2",
+        "iosAppId": "1:742580552247:ios:44c7e3b07f2e1f949975b2",
+        "webAppId": "1:742580552247:web:63b7e7d69f6886429975b2",
+        "connectedPackageName": "com.example.Test1"
+    }
 }
