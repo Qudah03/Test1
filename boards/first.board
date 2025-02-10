@@ -1,4 +1,34 @@
 {
-    "showGrid": false,
-    "canvases": []
+    "canvases": [
+        {
+            "x": 656.0,
+            "y": 128.0,
+            "w": 1157.0,
+            "h": 807.0,
+            "widget": "const HomeScreen()",
+            "deps": [
+                "lib/home_screen.dart"
+            ]
+        },
+        {
+            "x": 1925.0,
+            "y": 128.0,
+            "w": 1155.0,
+            "h": 807.0,
+            "widget": "const DisplayNews2()",
+            "deps": [
+                "lib/display_news2.dart"
+            ]
+        },
+        {
+            "x": 3161.0,
+            "y": 128.0,
+            "w": 1155.0,
+            "h": 807.0,
+            "widget": "const UpcomingEvents()",
+            "deps": [
+                "lib/upcoming_events.dart"
+            ]
+        }
+    ]
 }
