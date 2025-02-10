@@ -9,11 +9,11 @@ class UpcomingEvents extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const SafeArea(
+      body: SafeArea(
         child: Stack(
           fit: StackFit.expand,
-          alignment: Alignment(0.0, 0.0),
-          children: const [],
+          alignment: const Alignment(0.0, 0.0),
+          children: [],
         ),
       ),
       backgroundColor: Theme.of(context).colorScheme.onPrimary,
