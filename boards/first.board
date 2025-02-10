@@ -29,6 +29,16 @@
             "deps": [
                 "lib/upcoming_events.dart"
             ]
+        },
+        {
+            "x": 2383.0,
+            "y": 1445.0,
+            "w": 1155.0,
+            "h": 807.0,
+            "widget": "const AdminPannel()",
+            "deps": [
+                "lib/admin_pannel.dart"
+            ]
         }
     ]
 }
